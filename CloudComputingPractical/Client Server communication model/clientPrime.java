@@ -1,7 +1,7 @@
 import java.net.*;
 import java.io.*;
 class clientPrime{
-	public static void main(String args[]){
+    public static void main(String args[]){
 		try{
 			Socket ss = new Socket("LocalHost",8001);
 			BufferedReader infu = new BufferedReader(new InputStreamReader(System.in));
